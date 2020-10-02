@@ -11,4 +11,4 @@ class SecureString:
     - alle emojis -> :emoji_name:
     """
     def secureString(string):
-        return emoji.demojize(string.replace('"', "\"").replace("{hashtag}", "#"))
+        return emoji.demojize(string.replace('"', "\"").replace("{hashtag}", "#").replace("'", "\'"))
