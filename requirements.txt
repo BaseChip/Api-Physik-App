@@ -4,6 +4,6 @@ numpy==1.18.4
 mysql-connector-python==8.0.20
 matplotlib==3.2.1
 passlib==1.7.2
-flask-cors==3.0.8
+flask-cors==3.0.9
 sentry-sdk[flask]==0.16.1
 emoji==0.5.4
